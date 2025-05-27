@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 30px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#invoiceOutput {
+    margin-top: 20px;
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: pre-wrap;
+}

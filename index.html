@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Invoice Creator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>Invoice Creator</h1>
+    <input type="text" id="clientName" placeholder="Client Name" />
+    <input type="number" id="hoursWorked" placeholder="Hours Worked" />
+    <input type="number" id="hourlyRate" placeholder="Hourly Rate ($)" />
+    <button onclick="generateInvoice()">Generate Invoice</button>
+
+    <div id="invoiceOutput"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
