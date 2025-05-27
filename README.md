@@ -33,7 +33,3 @@ open index.html
 GitHub: iggisakhar
 
 LinkedIn: https://www.linkedin.com/in/igor-sakhar
-
-yaml
-Copy
-Edit
