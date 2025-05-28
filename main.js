@@ -24,4 +24,11 @@ function generateInvoice() {
   `;
 
     document.getElementById('invoiceOutput').innerHTML = invoice;
-}
+
+}const today = new Date().toLocaleDateString('en-US', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric'
+});
+
+console.log("🧾 Invoice created on: " + today);
